@@ -1,0 +1,82 @@
+table.oldal{
+    border-collapse: collapse;
+    background-image: url("pattern2.jpg");
+}
+
+table.oldal td{
+    width: 50%;
+}
+
+img{
+    border: 1px solid black;
+}
+
+header{
+    border: 2px solid black;
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+h2{
+    font-family: cursive;
+}
+
+table.oldal td img{
+    width: 200px;
+    height: 200px;
+    margin-left: 7em;
+    vertical-align: middle;
+}
+
+table.oldal {
+    border: 1px solid black;
+}
+
+table.recept {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table.recept td{
+    text-align: center;
+    border-right: 1px solid black;
+    font-style: bold;
+    width: 50%;
+    font-family: papyrus;
+}
+
+table.recept tr{
+    font-size: 10px;
+}
+
+table.recept tr:first-child{
+    border-bottom: 1px solid black;
+}
+
+table.recept ul{
+    text-align: left;
+}
+
+table.forrás{
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 10px;
+}
+
+table.forrás tr{
+    font-family: cursive;
+}
+
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color: blue;
+  }
+  

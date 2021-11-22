@@ -1,0 +1,63 @@
+div.fejlec {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    position: sticky;
+    background-color: black;
+    color: white;
+    font-variant: small-caps;
+    top: 0px;
+}
+
+div.kep > img:hover{
+    border: solid black;
+}
+
+div.content {
+    text-align: center;
+}
+
+table.tablazat {
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    border-collapse: collapse;
+    counter-reset: num;
+}
+
+.rowNum::before{
+    counter-increment: num;
+    content: counter(num);
+}
+
+.rowNum{
+    font-variant: small-caps;
+}
+
+table.tablazat>thead{
+    width: 50%;
+    text-align: center;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-variant: small-caps;
+}
+
+table.tablazat tr td{
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+table.tablazat>tbody tr:nth-child(even){
+    background-color: lightblue;
+}
+
+table.tablazat>tbody tr:nth-child(odd){
+    background-color: lightgreen;
+}
+
+table.tablazat tr:hover{
+    background-color: black;
+    color: red;
+}
