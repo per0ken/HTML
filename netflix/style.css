@@ -1,0 +1,64 @@
+body
+{
+    background-color: black;
+    color:ghostwhite;
+}
+
+#kulso1
+{
+    display: flex;
+    justify-content: center;
+}
+
+#kulso1 span
+{
+    display: inline-block;
+    text-align: left;
+}
+
+#szekcio-neve {
+    margin: auto;
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#szekcio-neve div
+{
+    padding: 40px;
+    border-radius: 50px;
+    background-color: rgba(51, 47, 47, 60%);
+}
+
+#szekcio-neve div p
+{
+    font-size: 20px;
+}
+
+#szekcio-neve div h1
+{
+    text-decoration: underline;
+}
+
+section table
+{
+    display: flex;
+    align-self: center;
+}
+
+section table tr td
+{
+    padding: 10px;
+}
+
+section table tr td img
+{
+    border-radius: 15px;
+}
+
+section table tr td img:hover
+{
+    transform: scale(120%);
+    border: 3px white solid;
+}
